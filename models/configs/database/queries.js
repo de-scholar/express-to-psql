@@ -2,7 +2,7 @@ export const CREATE_TABLE_USERS = 'CREATE TABLE IF NOT EXISTS users ('
     + 'id SERIAL PRIMARY KEY, '
     + 'fname VARCHAR(255),'
     + 'lname VARCHAR(255),'
-    + 'age VARCHAR(50),'
+    + 'age DATE,'
     + 'email VARCHAR(50),'
     + 'username VARCHAR(50),'
     + 'password VARCHAR(255))';
