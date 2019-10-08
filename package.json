@@ -1,0 +1,38 @@
+{
+  "name": "express-to-psql",
+  "version": "1.0.0",
+  "description": "This is a project of connecting an express application to the database (POSTGRESQL), and after all it will expose REST APIs for access to data",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/de-scholar/express-to-psql.git"
+  },
+  "keywords": [
+    "REST-APIs",
+    "node/express",
+    "postgreSQL"
+  ],
+  "author": "descholar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/de-scholar/express-to-psql/issues"
+  },
+  "homepage": "https://github.com/de-scholar/express-to-psql#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  }
+}
