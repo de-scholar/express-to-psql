@@ -13,3 +13,10 @@ export const ADD_NEW_USER = 'INSERT INTO users (fname,lname,age,email,username,p
 export const GET_ALL_USERS = 'SELECT * FROM users ORDER BY id ASC';
 
 export const GET_USER_BY_ID = 'SELECT * FROM users WHERE id=$1';
+
+export const UPDATE_USER = 'UPDATE users SET fname=$1,'
+    + 'lname=$2,'
+    + 'age=$3,'
+    + 'email=$4,'
+    + 'username=$5,'
+    + 'password=$6 WHERE id=$7';
